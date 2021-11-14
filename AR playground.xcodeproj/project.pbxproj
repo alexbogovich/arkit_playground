@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F62D47E4C5365379AC413A2 /* EntityContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62D29DF368587AA727F632 /* EntityContainer.swift */; };
+		5F62D6862C4735666BD5BF36 /* AppARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62D34915EE605476903D0E /* AppARView.swift */; };
+		5F62DB1B382E6FEA676A8358 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62D5FA68E1688DF51D3C5A /* ARViewContainer.swift */; };
 		984A031A27416D020074E453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A031927416D020074E453 /* AppDelegate.swift */; };
 		984A031C27416D020074E453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A031B27416D020074E453 /* ContentView.swift */; };
 		984A031E27416D020074E453 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 984A031D27416D020074E453 /* Experience.rcproject */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F62D29DF368587AA727F632 /* EntityContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityContainer.swift; sourceTree = "<group>"; };
+		5F62D34915EE605476903D0E /* AppARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppARView.swift; sourceTree = "<group>"; };
+		5F62D5FA68E1688DF51D3C5A /* ARViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		984A031627416D020074E453 /* AR playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		984A031927416D020074E453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		984A031B27416D020074E453 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 				984A031D27416D020074E453 /* Experience.rcproject */,
 				984A031F27416D040074E453 /* Assets.xcassets */,
 				984A032127416D040074E453 /* Preview Content */,
+				5F62D5FA68E1688DF51D3C5A /* ARViewContainer.swift */,
+				5F62D34915EE605476903D0E /* AppARView.swift */,
+				5F62D29DF368587AA727F632 /* EntityContainer.swift */,
 			);
 			path = "AR playground";
 			sourceTree = "<group>";
@@ -143,6 +152,9 @@
 				984A031C27416D020074E453 /* ContentView.swift in Sources */,
 				984A031A27416D020074E453 /* AppDelegate.swift in Sources */,
 				984A031E27416D020074E453 /* Experience.rcproject in Sources */,
+				5F62DB1B382E6FEA676A8358 /* ARViewContainer.swift in Sources */,
+				5F62D6862C4735666BD5BF36 /* AppARView.swift in Sources */,
+				5F62D47E4C5365379AC413A2 /* EntityContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
