@@ -8,7 +8,6 @@ class EntityContainer: Entity, HasCollision {
     required init(entity: Entity) {
         super.init()
         self.name = "entity_container"
-        self.generateCollisionShapes(recursive: true)
         updateBody(entity: entity)
         updateCollision()
     }
