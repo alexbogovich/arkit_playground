@@ -12,10 +12,6 @@ class EntityContainer: Entity, HasCollision {
         updateCollision()
     }
 
-    required init() {
-        super.init()
-    }
-
     func updateCollision() {
         let bounds = self.visualBounds(relativeTo: nil)
         let shape = ShapeResource.generateBox(size: bounds.extents).offsetBy(translation: bounds.center)
